@@ -21,7 +21,7 @@ public class Employee  {
 //        return this.employee_id - e.employee_id;
 //    }
 
-    public void setEmployee_id(){
+    public void setEmployee_id(int employee_id){
         this.employee_id=employee_id;
 
     }
@@ -37,11 +37,11 @@ public class Employee  {
         return employee_id;
     }
 
-    public String getEmployee_firstName(String employee_firstName) {
+    public String getEmployee_firstName() {
         return employee_firstName;
     }
 
-    public String getEmployee_surname(String employee_surname) {
+    public String getEmployee_surname( ) {
         return employee_surname;
     }
 

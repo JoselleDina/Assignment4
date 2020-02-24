@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="853f8a9e-a90e-4891-a2bd-266489336a12" name="Default Changelist" comment="" />
+    <list default="true" id="853f8a9e-a90e-4891-a2bd-266489336a12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/adp3/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/adp3/domain/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/adp3/EmployeeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/adp3/domain/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/adp3/domain/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/adp3/EmployeeTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +20,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -28,6 +38,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YCdI8NzHbbwTqROI3zPbeKLiSO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,19 +48,94 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
-    <configuration name="EmployeeTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ac.za.cput.adp3.domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmployeeTest.testToString">
+    <configuration name="EmployeeTest.getEmployee_firstName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assign2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.za.cput.adp3.*" />
+          <option name="PATTERN" value="ac.za.cput.adp3.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ac.za.cput.adp3" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.EmployeeTest" />
-      <option name="METHOD_NAME" value="Test2" />
+      <option name="PACKAGE_NAME" value="ac.za.cput.adp3.domain" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.domain.EmployeeTest" />
+      <option name="METHOD_NAME" value="getEmployee_firstName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest.getEmployee_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assign2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.za.cput.adp3.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.za.cput.adp3.domain" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.domain.EmployeeTest" />
+      <option name="METHOD_NAME" value="getEmployee_id" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest.getEmployee_surname" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assign2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.za.cput.adp3.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.za.cput.adp3.domain" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.domain.EmployeeTest" />
+      <option name="METHOD_NAME" value="getEmployee_surname" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest.getEmployee_surname1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assign2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.za.cput.adp3.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.za.cput.adp3.domain" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.domain.EmployeeTest" />
+      <option name="METHOD_NAME" value="getEmployee_surname1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assign2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.za.cput.adp3.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.za.cput.adp3.domain" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.domain.EmployeeTest" />
+      <option name="METHOD_NAME" value="testToString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,7 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeTest.Test2" />
+        <item itemvalue="JUnit.EmployeeTest.testToString" />
+        <item itemvalue="JUnit.EmployeeTest.getEmployee_surname1" />
+        <item itemvalue="JUnit.EmployeeTest.getEmployee_surname" />
+        <item itemvalue="JUnit.EmployeeTest.getEmployee_firstName" />
+        <item itemvalue="JUnit.EmployeeTest.getEmployee_id" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +161,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582450427188</updated>
-      <workItem from="1582450430421" duration="297000" />
+      <workItem from="1582450430421" duration="957000" />
+      <workItem from="1582533254370" duration="11896000" />
     </task>
     <servers />
   </component>
@@ -79,21 +170,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582450801874">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582537754925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582450801874" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582450801874">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1582537754925" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582573632727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582450801874" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582450801874">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582573632727" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582573632727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582450801874" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582450801874">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582573632727" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582573632727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582450801874" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582573632727" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582573632727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582573632727" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1582573306233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582573306233" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1582573306233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582573306233" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1582573306233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582573306233" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1582573306233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582573306233" />
+    <state x="524" y="60" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582536718707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="524" y="60" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1582536718707" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ac/za/cput/adp3/domain/EmployeeTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ac/za/cput/adp3/domain/EmployeeTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
