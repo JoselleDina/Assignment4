@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="853f8a9e-a90e-4891-a2bd-266489336a12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/adp3/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/adp3/domain/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/adp3/EmployeeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/adp3/domain/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/adp3/domain/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/adp3/EmployeeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,24 +57,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest.testToString">
-    <configuration name="EmployeeTest.getEmployee_firstName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.App" />
       <module name="Assign2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.za.cput.adp3.domain.*" />
+          <option name="PATTERN" value="ac.za.cput.adp3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ac.za.cput.adp3.domain" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.domain.EmployeeTest" />
-      <option name="METHOD_NAME" value="getEmployee_firstName" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest.getEmployee_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assign2" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +81,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ac.za.cput.adp3.domain" />
       <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.domain.EmployeeTest" />
-      <option name="METHOD_NAME" value="getEmployee_id" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.EmployeeTest" />
         <item itemvalue="JUnit.EmployeeTest.testToString" />
         <item itemvalue="JUnit.EmployeeTest.getEmployee_surname1" />
         <item itemvalue="JUnit.EmployeeTest.getEmployee_surname" />
-        <item itemvalue="JUnit.EmployeeTest.getEmployee_firstName" />
-        <item itemvalue="JUnit.EmployeeTest.getEmployee_id" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582450427188</updated>
       <workItem from="1582450430421" duration="957000" />
-      <workItem from="1582533254370" duration="11896000" />
+      <workItem from="1582533254370" duration="12819000" />
     </task>
     <servers />
   </component>
@@ -174,22 +167,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1582537754925" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582573632727">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582574552123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582573632727" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582573632727">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582574552123" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582574552123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582573632727" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582573632727">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582574552123" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582574552123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582573632727" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582573632727">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582574552123" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582574552123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582573632727" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582574552123" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1582573306233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -218,11 +211,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/ac/za/cput/adp3/domain/EmployeeTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ac/za/cput/adp3/domain/EmployeeTest.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
