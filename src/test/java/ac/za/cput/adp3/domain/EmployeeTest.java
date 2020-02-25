@@ -1,6 +1,7 @@
 package ac.za.cput.adp3.domain;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.rules.Timeout;
 
@@ -18,20 +19,20 @@ public class EmployeeTest {
     }
 //Testing Object Equality.
     @Test
-    public void getEmployee_id() {
+    public void Test1() {
         Assert.assertEquals(emp1.getEmployee_id(), 01);
         System.out.print("Bravo Beautiful");
 
     }
 //Testing Object Identity.
     @Test
-    public void getEmployee_firstName() {
+    public void Test2() {
         Assert.assertSame(emp.getEmployee_firstName(), "Joselle");
         System.out.print("Bravo Beautiful");
     }
 // Testing failing
     @Test
-    public void getEmployee_surname() {
+    public void Test3() {
         fail(emp.getEmployee_surname());
 
        // Assert.assertNotEquals(emp.getEmployee_surname(), "Dinana");
@@ -39,17 +40,20 @@ public class EmployeeTest {
 
 // Testing Timeout
     @Test(timeout =2000)
-    public void getEmployee_surname1() {
+    public void test4() {
         try {
             TimeUnit.SECONDS.sleep(1);
             Assert.assertSame(emp.getEmployee_firstName(), "Joselle");
-            System.out.println("hi");
+            System.out.println("Lovely");
        } catch (InterruptedException e) {
            e.printStackTrace();
         }
     }
-
+//Disabling testing
+    @Ignore
     @Test
-    public void testToString() {
+    public void test5() {
+        Assert.assertSame(emp.getEmployee_firstName(), "Joselle");
+        System.out.print("Bravo Beautiful");
     }
 }
