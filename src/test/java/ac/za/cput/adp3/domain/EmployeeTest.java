@@ -20,8 +20,10 @@ public class EmployeeTest {
 //Testing Object Equality.
     @Test
     public void Test1() {
-        Assert.assertEquals(emp1.getEmployee_id(), 01);
+        Assert.assertEquals(emp1.getEmployee_id(), emp.getEmployee_id());
         System.out.print("Bravo Beautiful");
+//        Assert.assertNotEquals(emp1.getEmployee_id(), emp.getEmployee_id());
+//        System.out.print("Bravo Beautiful");
 
     }
 //Testing Object Identity.
@@ -29,6 +31,9 @@ public class EmployeeTest {
     public void Test2() {
         Assert.assertSame(emp.getEmployee_firstName(), "Joselle");
         System.out.print("Bravo Beautiful");
+
+//        Assert.assertNotSame(emp.getEmployee_firstName(), "Joselle");
+//        System.out.print("Bravo Beautiful");
     }
 // Testing failing
     @Test

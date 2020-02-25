@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="853f8a9e-a90e-4891-a2bd-266489336a12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/adp3/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/adp3/domain/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/adp3/domain/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/adp3/domain/EmployeeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest.Test3">
+  <component name="RunManager" selected="JUnit.EmployeeTest">
     <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assign2" />
       <extension name="coverage">
@@ -139,10 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeTest.Test3" />
         <item itemvalue="JUnit.EmployeeTest" />
-        <item itemvalue="JUnit.EmployeeTest.test5" />
         <item itemvalue="JUnit.EmployeeTest.Test1" />
+        <item itemvalue="JUnit.EmployeeTest.Test3" />
+        <item itemvalue="JUnit.EmployeeTest.test5" />
         <item itemvalue="JUnit.EmployeeTest.test4" />
       </list>
     </recent_temporary>
@@ -160,7 +160,7 @@
       <workItem from="1582450430421" duration="957000" />
       <workItem from="1582533254370" duration="13474000" />
       <workItem from="1582575658769" duration="339000" />
-      <workItem from="1582653990263" duration="2301000" />
+      <workItem from="1582653990263" duration="2735000" />
     </task>
     <task id="LOCAL-00001" summary="committed">
       <created>1582575045136</created>
@@ -188,22 +188,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582575043699" />
-    <state width="1306" height="179" key="GridCell.Tab.0.bottom" timestamp="1582655838149">
+    <state width="1306" height="179" key="GridCell.Tab.0.bottom" timestamp="1582656599575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582655838149" />
-    <state width="1306" height="179" key="GridCell.Tab.0.center" timestamp="1582655838149">
+    <state width="1306" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582656599575" />
+    <state width="1306" height="179" key="GridCell.Tab.0.center" timestamp="1582656599575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582655838149" />
-    <state width="1306" height="179" key="GridCell.Tab.0.left" timestamp="1582655838149">
+    <state width="1306" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582656599575" />
+    <state width="1306" height="179" key="GridCell.Tab.0.left" timestamp="1582656599575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582655838149" />
-    <state width="1306" height="179" key="GridCell.Tab.0.right" timestamp="1582655838149">
+    <state width="1306" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582656599575" />
+    <state width="1306" height="179" key="GridCell.Tab.0.right" timestamp="1582656599575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582655838149" />
+    <state width="1306" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582656599575" />
     <state width="1306" height="222" key="GridCell.Tab.1.bottom" timestamp="1582655363921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
