@@ -20,10 +20,10 @@ public class EmployeeTest {
 //Testing Object Equality.
     @Test
     public void Test1() {
-        Assert.assertEquals(emp1.getEmployee_id(), emp.getEmployee_id());
-        System.out.print("Bravo Beautiful");
-//        Assert.assertNotEquals(emp1.getEmployee_id(), emp.getEmployee_id());
+//        Assert.assertEquals(emp1.getEmployee_id(), emp.getEmployee_id());
 //        System.out.print("Bravo Beautiful");
+        Assert.assertEquals(emp1.getEmployee_id(), 01);
+        System.out.print("Bravo Beautiful");
 
     }
 //Testing Object Identity.

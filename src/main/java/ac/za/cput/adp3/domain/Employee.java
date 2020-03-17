@@ -48,7 +48,7 @@ public class Employee  {
     @Override
     public String toString() {
         return
-               "Employee details:"+"\n"+"ID Number:"+ getEmployee_id() +"\n"+" First Name:"+ getEmployee_firstName()+"\n" +"Surname:"+ getEmployee_surname() + '\t' ;
+               "ID Number:"+ getEmployee_id() +"\t"+" First Name:"+ getEmployee_firstName()+"\t" +"Surname:"+ getEmployee_surname() + '\n' ;
 
     }
 }
