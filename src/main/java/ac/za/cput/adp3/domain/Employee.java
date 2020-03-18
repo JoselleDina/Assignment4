@@ -1,6 +1,10 @@
 package ac.za.cput.adp3.domain;
 
-public class Employee  {
+import java.util.Collection;
+import java.util.Map;
+import java.util.Set;
+
+public class Employee implements Map {
     private int employee_id;
     private String employee_firstName;
     private String employee_surname;
@@ -50,6 +54,67 @@ public class Employee  {
         return
                "ID Number:"+ getEmployee_id() +"\t"+" First Name:"+ getEmployee_firstName()+"\t" +"Surname:"+ getEmployee_surname() + '\n' ;
 
+    }
+
+
+    @Override
+    public int size() {
+        return 0;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
+    public boolean containsKey(Object o) {
+        return false;
+    }
+
+    @Override
+    public boolean containsValue(Object o) {
+        return false;
+    }
+
+    @Override
+    public Object get(Object o) {
+        return null;
+    }
+
+    @Override
+    public Object put(Object o, Object o2) {
+        return null;
+    }
+
+    @Override
+    public Object remove(Object o) {
+        return null;
+    }
+
+    @Override
+    public void putAll(Map map) {
+
+    }
+
+    @Override
+    public void clear() {
+
+    }
+
+    @Override
+    public Set keySet() {
+        return null;
+    }
+
+    @Override
+    public Collection values() {
+        return null;
+    }
+
+    @Override
+    public Set<Entry> entrySet() {
+        return null;
     }
 }
 

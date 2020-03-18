@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="853f8a9e-a90e-4891-a2bd-266489336a12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/adp3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/adp3/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/adp3/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/adp3/domain/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/adp3/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/adp3/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,17 +72,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assign2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.za.cput.adp3.domain.*" />
+          <option name="PATTERN" value="ac.za.cput.adp3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ac.za.cput.adp3.domain" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.domain.EmployeeTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ac.za.cput.adp3" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.AppTest" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assign2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.za.cput.adp3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.za.cput.adp3" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.AppTest" />
+      <option name="METHOD_NAME" value="Test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assign2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.za.cput.adp3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.za.cput.adp3" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.AppTest" />
+      <option name="METHOD_NAME" value="Test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,45 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest.Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assign2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.za.cput.adp3.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ac.za.cput.adp3.domain" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.domain.EmployeeTest" />
-      <option name="METHOD_NAME" value="Test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assign2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.za.cput.adp3.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ac.za.cput.adp3.domain" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.adp3.domain.EmployeeTest" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest.Test3" />
+        <item itemvalue="JUnit.AppTest.Test2" />
+        <item itemvalue="JUnit.AppTest.Test1" />
         <item itemvalue="JUnit.EmployeeTest.Test1" />
-        <item itemvalue="JUnit.EmployeeTest" />
-        <item itemvalue="JUnit.EmployeeTest.Test3" />
-        <item itemvalue="JUnit.EmployeeTest.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +164,7 @@
       <workItem from="1583322785483" duration="590000" />
       <workItem from="1583324556783" duration="257000" />
       <workItem from="1583763358245" duration="864000" />
-      <workItem from="1584361833904" duration="19092000" />
+      <workItem from="1584361833904" duration="21684000" />
     </task>
     <task id="LOCAL-00001" summary="committed">
       <created>1582575045136</created>
@@ -182,10 +184,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="committed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582537754925">
+    <state x="0" y="31" key="#AppTest" timestamp="1584556301183">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1582537754925" />
+    <state x="0" y="31" key="#AppTest/0.0.1366.728@0.0.1366.728" timestamp="1584556301183" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584557883829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1584557883829" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1584558366638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584558366638" />
     <state x="181" y="103" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1584365783153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -198,22 +208,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="381" y="111" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584362549808" />
-    <state width="639" height="181" key="GridCell.Tab.0.bottom" timestamp="1584458853030">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1584558549075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584458853030" />
-    <state width="639" height="181" key="GridCell.Tab.0.center" timestamp="1584458853030">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584558549075" />
+    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1584558549075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584458853030" />
-    <state width="639" height="181" key="GridCell.Tab.0.left" timestamp="1584458853030">
+    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584558549075" />
+    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1584558549074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584458853030" />
-    <state width="639" height="181" key="GridCell.Tab.0.right" timestamp="1584458853030">
+    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584558549074" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1584558549075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584458853030" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584558549075" />
     <state width="1306" height="222" key="GridCell.Tab.1.bottom" timestamp="1582748893710">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -242,10 +252,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" width="607" height="494" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584362051927" />
-    <state x="524" y="60" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582536718707">
+    <state x="150" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584556660234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="524" y="60" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1582536718707" />
+    <state x="150" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1584556660234" />
+    <state x="524" y="60" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584556520561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="524" y="60" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1584556520561" />
     <state x="131" y="59" key="new project wizard" timestamp="1583073736748">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
